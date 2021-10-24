@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "12ft Ladder Redirector",
+  "description": "This extension will automatically redirect paywall domains to 12ft.io",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
